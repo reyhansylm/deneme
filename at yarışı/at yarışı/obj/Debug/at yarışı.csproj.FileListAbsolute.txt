@@ -1,0 +1,10 @@
+C:\Users\LENOVO\source\repos\at yarışı\at yarışı\bin\Debug\at yarışı.exe.config
+C:\Users\LENOVO\source\repos\at yarışı\at yarışı\bin\Debug\at yarışı.exe
+C:\Users\LENOVO\source\repos\at yarışı\at yarışı\bin\Debug\at yarışı.pdb
+C:\Users\LENOVO\source\repos\at yarışı\at yarışı\obj\Debug\at yarışı.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\at yarışı\at yarışı\obj\Debug\at_yarışı.Form1.resources
+C:\Users\LENOVO\source\repos\at yarışı\at yarışı\obj\Debug\at_yarışı.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\at yarışı\at yarışı\obj\Debug\at yarışı.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\at yarışı\at yarışı\obj\Debug\at yarışı.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\at yarışı\at yarışı\obj\Debug\at yarışı.exe
+C:\Users\LENOVO\source\repos\at yarışı\at yarışı\obj\Debug\at yarışı.pdb
