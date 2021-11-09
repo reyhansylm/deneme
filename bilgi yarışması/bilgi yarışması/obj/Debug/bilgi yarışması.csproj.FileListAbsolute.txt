@@ -1,0 +1,10 @@
+C:\Users\LENOVO\source\repos\bilgi yarışması\bilgi yarışması\bin\Debug\bilgi yarışması.exe.config
+C:\Users\LENOVO\source\repos\bilgi yarışması\bilgi yarışması\bin\Debug\bilgi yarışması.exe
+C:\Users\LENOVO\source\repos\bilgi yarışması\bilgi yarışması\bin\Debug\bilgi yarışması.pdb
+C:\Users\LENOVO\source\repos\bilgi yarışması\bilgi yarışması\obj\Debug\bilgi yarışması.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\bilgi yarışması\bilgi yarışması\obj\Debug\bilgi_yarışması.Form1.resources
+C:\Users\LENOVO\source\repos\bilgi yarışması\bilgi yarışması\obj\Debug\bilgi_yarışması.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\bilgi yarışması\bilgi yarışması\obj\Debug\bilgi yarışması.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\bilgi yarışması\bilgi yarışması\obj\Debug\bilgi yarışması.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\bilgi yarışması\bilgi yarışması\obj\Debug\bilgi yarışması.exe
+C:\Users\LENOVO\source\repos\bilgi yarışması\bilgi yarışması\obj\Debug\bilgi yarışması.pdb
