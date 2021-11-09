@@ -1,0 +1,10 @@
+C:\Users\LENOVO\source\repos\Hesap_makk\Hesap_makk\bin\Debug\Hesap_makk.exe.config
+C:\Users\LENOVO\source\repos\Hesap_makk\Hesap_makk\bin\Debug\Hesap_makk.exe
+C:\Users\LENOVO\source\repos\Hesap_makk\Hesap_makk\bin\Debug\Hesap_makk.pdb
+C:\Users\LENOVO\source\repos\Hesap_makk\Hesap_makk\obj\Debug\Hesap_makk.Form1.resources
+C:\Users\LENOVO\source\repos\Hesap_makk\Hesap_makk\obj\Debug\Hesap_makk.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\Hesap_makk\Hesap_makk\obj\Debug\Hesap_makk.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\Hesap_makk\Hesap_makk\obj\Debug\Hesap_makk.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Hesap_makk\Hesap_makk\obj\Debug\Hesap_makk.exe
+C:\Users\LENOVO\source\repos\Hesap_makk\Hesap_makk\obj\Debug\Hesap_makk.pdb
+C:\Users\LENOVO\source\repos\Hesap_makk\Hesap_makk\obj\Debug\Hesap_makk.csprojAssemblyReference.cache
