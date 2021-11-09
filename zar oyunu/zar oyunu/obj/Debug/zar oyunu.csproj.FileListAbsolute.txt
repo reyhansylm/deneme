@@ -1,0 +1,10 @@
+C:\Users\LENOVO\source\repos\zar oyunu\zar oyunu\bin\Debug\zar oyunu.exe.config
+C:\Users\LENOVO\source\repos\zar oyunu\zar oyunu\bin\Debug\zar oyunu.exe
+C:\Users\LENOVO\source\repos\zar oyunu\zar oyunu\bin\Debug\zar oyunu.pdb
+C:\Users\LENOVO\source\repos\zar oyunu\zar oyunu\obj\Debug\zar oyunu.csprojAssemblyReference.cache
+C:\Users\LENOVO\source\repos\zar oyunu\zar oyunu\obj\Debug\zar_oyunu.Form1.resources
+C:\Users\LENOVO\source\repos\zar oyunu\zar oyunu\obj\Debug\zar_oyunu.Properties.Resources.resources
+C:\Users\LENOVO\source\repos\zar oyunu\zar oyunu\obj\Debug\zar oyunu.csproj.GenerateResource.cache
+C:\Users\LENOVO\source\repos\zar oyunu\zar oyunu\obj\Debug\zar oyunu.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\zar oyunu\zar oyunu\obj\Debug\zar oyunu.exe
+C:\Users\LENOVO\source\repos\zar oyunu\zar oyunu\obj\Debug\zar oyunu.pdb
