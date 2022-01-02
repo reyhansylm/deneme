@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Question">
+
+    <TextView
+        android:id="@+id/totalsoru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question: 1/10"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f0f0f0"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/txtscore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/score_1_10"
+            android:layout_marginEnd="30dp"
+            android:textStyle="italic"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtcorrect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correct:"
+            android:background="#90ffbb"
+            android:layout_marginEnd="30dp"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtwrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wrong:"
+            android:background="#ff4040"
+            android:layout_marginEnd="30dp"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/txtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:30"
+            android:layout_marginEnd="30dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textsoru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textStyle="normal"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="36dp"
+        android:text="Soru" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="5dp"
+        android:padding="5dp">
+
+        <RadioButton
+            android:id="@+id/radioa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Radio"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radiob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Radio"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radioc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Radio"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radiod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Radio"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radioe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Radio"
+            android:textSize="15sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/kaydet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:text="NEXT" />
+
+
+
+
+</LinearLayout>

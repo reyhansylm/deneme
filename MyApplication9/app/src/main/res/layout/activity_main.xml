@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#228b22"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bigdaire"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:id="@+id/big"
+        android:layout_marginStart="40dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ask"
+            android:layout_gravity="center">
+        </ImageView>
+
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:layout_marginStart="40dp">
+
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/q" />
+
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/u" />
+
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/i" />
+
+             <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:background="@drawable/z" />
+         </LinearLayout>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/kullanici"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Kullanıcı adınızı Giriniz"
+        android:textSize="13sp"
+        android:background="@drawable/edit"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Şifrenizi Giriniz"
+        android:background="@drawable/edit"
+        android:textSize="13sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/girisyap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giriş Yap"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"></Button>
+
+    <Button
+        android:id="@+id/uye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Uye Ol"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"></Button>
+
+    <TextView
+        android:id="@+id/devamet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Üye Olmadan Devam Et"
+        android:layout_marginTop="70dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center">
+
+    </TextView>
+
+</LinearLayout>
