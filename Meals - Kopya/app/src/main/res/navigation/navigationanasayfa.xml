@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigationanasayfa"
+    app:startDestination="@id/asilFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.example.meals.AnasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/siparisgecis"
+            app:destination="@id/siparisFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right" />
+        <argument
+            android:name="ad"
+            app:argType="string"
+            android:defaultValue="isimsiz" />
+        <argument
+            android:name="fiyat"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="nesne"
+            app:argType="com.example.meals.Yemekler" />
+    </fragment>
+    <fragment
+        android:id="@+id/siparisFragment"
+        android:name="com.example.meals.SiparisFragment"
+        android:label="fragment_siparis"
+        tools:layout="@layout/fragment_siparis" >
+        <argument
+            android:name="fiyat"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="adet"
+            app:argType="integer"
+            android:defaultValue="0" />
+        <argument
+            android:name="yemekad"
+            app:argType="string"
+            android:defaultValue="isim yok" />
+        <argument
+            android:name="nesneiki"
+            app:argType="com.example.meals.Yemekler" />
+        <action
+            android:id="@+id/sonfragment"
+            app:destination="@id/accountFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/asilFragment"
+        android:name="com.example.meals.AsilFragment"
+        android:label="fragment_asil"
+        tools:layout="@layout/fragment_asil" >
+        <action
+            android:id="@+id/anasaydayagecis"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.meals.UyelikFragment"
+        android:label="fragment_uyelik"
+        tools:layout="@layout/fragment_uyelik" >
+        <argument
+            android:name="String"
+            app:argType="string" />
+        <argument
+            android:name="Sifre"
+            app:argType="float"
+            android:defaultValue="0.0" />
+        <argument
+            android:name="uyelikler"
+            app:argType="com.example.meals.UyelikIslem" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.example.meals.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/accountsiparis"
+            app:destination="@id/siparisFragment" />
+    </fragment>
+</navigation>

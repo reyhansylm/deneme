@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnasayfaFragment">
+
+    <ImageView
+        android:id="@+id/resim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/loo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/yemekbuton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#FFA7A7"
+        android:text="DEVAM ET"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/yemeginadı"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resim" />
+
+    <TextView
+        android:id="@+id/yemeginfiayati"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yemeginadı" />
+
+
+    <RadioGroup
+        android:layout_width="159dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="117dp"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yemeginfiayati"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/ketcap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ketçap"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/mayonez"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mayonez"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/acisos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acı Sos"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/sarmsos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sarımsaklı Sos"></RadioButton>
+
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
